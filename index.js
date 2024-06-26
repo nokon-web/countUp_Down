@@ -2,7 +2,7 @@ const displaycount=document.getElementById('displaycount')
 const increase=document.getElementById('increase')
 const reset= document.getElementById('reset')
 const decrease= document.getElementById('decrease')
-let count;
+let count=0;
 increase.onclick=function(){
     count++;
     displaycount.innerText=count
